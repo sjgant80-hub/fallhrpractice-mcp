@@ -1,0 +1,28 @@
+{
+  "name": "@ai-native-solutions/fallhrpractice-mcp",
+  "version": "1.0.0",
+  "description": "fallhrpractice MCP server · stdio wrapper around @ai-native-solutions/fallhrpractice-sdk",
+  "type": "module",
+  "main": "src/index.js",
+  "bin": {
+    "fallhrpractice-mcp": "src/index.js"
+  },
+  "files": ["src", "README.md", "LICENSE"],
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "keywords": ["fallhrpractice", "mcp", "model-context-protocol", "ai-native-solutions"],
+  "author": "AI-Native Solutions",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sjgant80-hub/fallhrpractice-mcp.git"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "@ai-native-solutions/fallhrpractice-sdk": "^1.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
